@@ -1,0 +1,93 @@
+body {
+    background: #F3F5FC;
+    width: 940px;
+    height: 800px;
+}
+
+header img {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+}
+
+main {
+    position: relative;
+}
+
+input {
+    background-color: #F3F5FC;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    border: none;
+    position: absolute;
+}
+
+.rectangleContainer {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    left: 1200px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.rectangleContainer textarea {
+    background: url(./images/Muñeco.png) no-repeat;
+    color: #495057;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    border: none;
+    top: 150px;
+    left: 32px;
+    font-size: 30px;
+}
+
+.btnContainer {
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 700px;
+}
+
+input::placeholder {
+    color: #0A3871;
+    font-size: 32px;
+}
+
+#inputText {
+    font-size: 30px;
+    color: #0A3871;
+}
+
+#encrypt {
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    color: white;
+    border-radius: 24px;
+}
+
+#decrypt {
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+#copy {
+    position: absolute;
+    color: #0A3871;
+    width: 336px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    left: 32px;
+    top: 650px;
+}
